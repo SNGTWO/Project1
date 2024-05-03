@@ -1,0 +1,317 @@
+:root {
+  --accent: #D7B399;
+  --dark: #212121;
+  --light: #F9F6F1;
+  --gray: #CBCFD4;
+  --light-gray: #f4f4f4;
+  --dark-gray: #8d8d8d;
+  --important: #d84033;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.page {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.page-light {
+  background-color: #F9F6F1;
+}
+
+.page-dark {
+  background-color: #212121;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 26px;
+  padding-top: 46px;
+  background-color: #F9F6F1;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-item {
+  margin-right: 52px;
+}
+.nav-link {
+  text-decoration: none;
+  font-weight: bold; 
+  font-size: 20px;
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+}
+
+.title-h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.btn {
+  background-color: #D7B399;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn-center {
+  display: block;
+  text-align: center;
+  max-width: 200px;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn img {
+  width: 30px;
+  height: 30px;
+
+  vertical-align:middle;
+}
+
+.btn-xs {
+  padding: 10px 20px;
+  border-radius: 20px;
+  vertical-align:middle;
+  
+}
+
+.btn-xs img {
+  width: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-item {
+  flex: 0 0 50%;
+}
+.main-item.sale .btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  
+}
+.sale-description {
+  font-size: 30px;
+  letter-spacing: -0.6px;
+}
+
+.sale-title {
+  font-size: 55px;
+  font-weight: 700;
+  margin-top: -20px;
+  margin-bottom: 60px;
+}
+
+.box {
+  position: relative;
+}
+
+.box-image {
+  width: 350px;
+  height: 250px;
+}
+
+.box-price {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  text-align: right;
+}
+
+.box-price-old {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.box-price-new {
+  font-size: 42px;
+  font-weight: 700;
+  color: #d84033;
+  margin-top: 17px;
+}
+
+.notice {
+  text-align: center;
+}
+
+.notice-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 400;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.notice-title span {
+  font-weight: 700;
+}
+
+.notice-description {
+  font-size: 20px;
+  color: #fff;
+}
+
+.collection {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.collection-item {
+  flex: 0 0 calc(50% - 15px);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 130px 130px;
+}
+
+.collection-boys {
+  background-image: url("/img/Boys.png");
+}
+
+.collection-girls {
+  background-image: url("/img/Girls.png");
+}
+
+.collection-title {
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.collection-description {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.collection-content {
+  display: flex;
+  align-items: center;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.product-item img {
+  width: 200px;
+  height: 200px;
+}
+
+.product-title {
+  font-weight: 600;
+}
+
+.product-price {
+  color: #D7B399;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.footer-logo {
+  flex: 0 0 0%;
+}
+
+.footer-logo img {
+  width: 300px;
+  height: auto;
+}
+
+.footer-nav {
+  flex: 0 0 60%;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.footer-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-title {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.footer-item {
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.footer-link {
+  color: #CBCFD4;
+  text-decoration: none;
+  font-size: 12px;
+}
+.footer-item img, .footer-item i {
+    width: 20px; 
+    height: 20px; 
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+.footer {
+  color:#fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  flex: 0 0 auto;
+  margin-bottom: 40px; 
+}
+.footer .copyright {
+  font-size: 12px;
+  margin-top: 0px;
+  text-align: center;
+}
+.color {
+  background-color: #ff1500;
+  background-clip: text;
+  color: transparent; 
+}
